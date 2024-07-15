@@ -1,0 +1,17 @@
+/* You can add custom styles here. */
+$tag-bg-color: rgb(197, 163, 15);
+$tag-text-color: white;
+$tag-padding: 5px;
+$tag-margin: 2px;
+$tag-border-radius: 3px;
+
+.tag-box {
+  display: inline-block;
+  background-color: $tag-bg-color;
+  color: $tag-text-color;
+  padding: $tag-padding;
+  margin: $tag-margin;
+  border-radius: $tag-border-radius;
+  text-decoration: none;
+}
+// @import "plugins/numbered";

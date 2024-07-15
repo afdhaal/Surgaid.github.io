@@ -1,6 +1,6 @@
 baseURL = 'https://zumafi.com/'
 languageCode = 'en-us'
-title = 'Surgeons Aid'
+title = 'Surgeons Aid ☘️'
 
 enableEmoji = true
 theme = 'hugo-book'
