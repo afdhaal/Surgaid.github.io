@@ -1,0 +1,12 @@
+{{ if .Params.tags }}
+  <h2>Tags</h2>
+  {{ range $taxonomy, $_ := .Site.Taxonomies }}
+    {{ with $terms := $.GetTerms $taxonomy }}
+    <div>
+      {{ range $n, $term := $terms }}{{ if $n }} {{ end }}
+        <a href="{{ $term.RelPermalink }}" class="tag-box">#{{ $term.Title }}</a>
+      {{- end }}
+    </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

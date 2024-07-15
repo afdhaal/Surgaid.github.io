@@ -1,6 +1,6 @@
 {
-  "name": "My New Hugo Site",
-  "short_name": "My New Hugo Site",
+  "name": "Surgeons Aid",
+  "short_name": "Surgeons Aid",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
