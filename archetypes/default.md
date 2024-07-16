@@ -1,7 +1,12 @@
-+++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-draft = true
-tags =
-+++
+---
+title: "📗 {{ .Name | humanize | title }}"
+weight: 10
+date: (( .Date ))
+draft: true
+author: Afdhaal
+categories: 
+- Draft
+Tags:
+- Draft
+---
 
