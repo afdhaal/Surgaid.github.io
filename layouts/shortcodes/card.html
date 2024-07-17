@@ -7,22 +7,22 @@
     (dict "name" "Core Surgery" "icon" "🌸" "link" "/categories/coresurgery/")
 }}
 
-<div class="cards-container">
+<div class="book-columns flex flex-wrap">
     {{ range $index, $card := $cards }}
-    <a href="{{ $card.link }}" class="card" style="background-color: {{ index (slice "#3AA6B9" "#E9C46A" "#FF9EAA" "#36BA98" "#E9C46A" "#F4A261") $index }}">
-        <div class="card-icon">{{ $card.icon }}</div>
-        <div class="card-name">{{ $card.name }}</div>
-    </a>
-    {{ end }}
-</div>
+      <div class="flex-even markdown-inner">
+
+        <a href="{{ $card.link }}" class="card" style="background-color: {{ index (slice "#3AA6B9" "#E9C46A" "#FF9EAA" "#36BA98" "#E9C46A" "#F4A261") $index }}">
+            <div class="card-icon">{{ $card.icon }}</div>
+            <div class="card-name">{{ $card.name }}</div>
+        </a>
+
+      </div>
+      {{ end }}
+    </div>
+
 
 <style>
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin-top: 20px;
-}
+
 
 .card {
     display: flex;
