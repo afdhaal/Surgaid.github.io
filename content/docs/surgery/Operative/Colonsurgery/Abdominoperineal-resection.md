@@ -4,6 +4,8 @@ bookFlatSection: true
 tags: 
 - opesy
 - GI
+Categories:
+- Operative Surgery
 title: "Abdominoperineal resection"
 ---
 

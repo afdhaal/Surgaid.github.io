@@ -1,5 +1,7 @@
 ---
+weight: 10
 bookCollapseSection: true
-weight: 20
 title: "🩸 Operative surgery"
+layout: blog
 ---
+

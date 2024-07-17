@@ -21,4 +21,3 @@ weight: 40
 - Bone Iiry, 
 - Dermoid cyst
 
-{{< relPosts >}}

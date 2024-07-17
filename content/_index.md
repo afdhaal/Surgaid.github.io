@@ -5,20 +5,10 @@ type: docs
 
 # Zumafi Surgery
 
-{{< columns >}}
-## Operative surgery
+
+{{< card >}}
 
 
-<--->
-
-## Core surgery
 
 
-<--->
 
-
-## Principles of surgery
-
-{{< /columns >}}
-
-{{< section >}}
