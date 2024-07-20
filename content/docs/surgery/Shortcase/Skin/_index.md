@@ -2,6 +2,8 @@
 title: "🧘‍♀️ Skin & Subcutaneous"
 bookCollapseSection: true
 weight: 40
+aliases:
+- /shortcase/skinsubcut
 ---
 
 # Skin and subctuaneous

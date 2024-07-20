@@ -15,5 +15,45 @@ $tag-border-radius: 3px;
   text-decoration: none;
 }
 
+// Cards
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border-radius: 8px;
+  text-decoration: none!important;
+  color: #fff;
+  font-size: 24px;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.card-icon {
+  font-size: 72px;
+  margin-bottom: 16px;
+}
+
+.card-name {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Remove underline on hover and adjust link color */
+.card:hover,
+.card:visited {
+  text-decoration: none;
+  color: #fff!important; /* Ensures link color remains white */
+}
+
+
 
 // @import "plugins/numbered";

@@ -1,0 +1,12 @@
+<div class="book-columns flex flex-wrap">
+
+{{ with .Inner }}
+    {{ $sections := split . "<--->" }}
+    {{ range $index, $section := $sections }}
+        {{ $trimmed := trim $section "\r\n" }}
+        {{ $trimmed | safeHTML }}
+    {{ end }}
+{{ end }}
+
+</div>
+
