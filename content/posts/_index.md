@@ -1,9 +1,8 @@
 ---
 menu:
   after:
-    name: blog
+    name: Surgery Notes
     weight: 5
-title: Blog
+title: 🍀 Surgical Notes
 ---
 
-# something here

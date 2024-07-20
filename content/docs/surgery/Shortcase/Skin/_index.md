@@ -4,6 +4,7 @@ bookCollapseSection: true
 weight: 40
 aliases:
 - /shortcase/skinsubcut
+layout: single
 ---
 
 # Skin and subctuaneous
@@ -23,3 +24,5 @@ aliases:
 - Bone Iiry, 
 - Dermoid cyst
 
+
+{{< section >}}

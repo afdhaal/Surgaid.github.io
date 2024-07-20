@@ -1,5 +1,5 @@
 ---
-title: "🪲 Abdominal Bay"
+title: "🪲 Abdominal & Chest Bay"
 weight: 30
 categories: 
 - Short Case
@@ -12,7 +12,8 @@ draft: false
 params:
   author: Afdhaal
 aliases:
-- /shortcase/abdominal
+- /shortcase/abdominalchest
+layout: single
 ---
 
 # Abdominal short cases
@@ -25,4 +26,19 @@ aliases:
 - Epigastric / RHC mass Liver Ca, 
 - Pancreas CA, Pseudocyst, 
 - Gastric CA RIF / LIF mass Urinary fistula
+- Femoral hernia 
+- Inguinal hernia 
+- Ileostomy / Colostomy
+
+# Chest short cases
+- Breast CA 
+- axillary lumps 
+- Breast lump / gynaecomastia 
+- Vesicular eruptions of chest 
+- Pancoast lump 
+- Chest wall lesions 
+- Hydradenitis 
+- Axillary lumps
+
+{{< section >}}
 
