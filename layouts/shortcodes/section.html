@@ -1,13 +1,17 @@
 <dl>
 {{ range .Page.Pages }}
+<blockquote class="book-hint info">
   <dt>
-    <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+    <h2><a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a></h2>
   </dt>
-  {{ if (in $.Params "summary") -}}
+  {{ if .Page.Params.Summary  -}}
   <dd class="markdown-inner">
+
     {{ default .Summary .Description }}
+
   </dd>
   {{ end -}}
+</blockquote>
 {{ end }}
 </dl>
 

@@ -8,6 +8,8 @@ layout: single
 ---
 
 # Skin and subctuaneous
+
+## Examine the following lump
 - External angular lumps 
 - Scalp lump 
 - bony / soft Scapular lumps 
@@ -24,5 +26,6 @@ layout: single
 - Bone Iiry, 
 - Dermoid cyst
 
+## Cases
 
 {{< section >}}

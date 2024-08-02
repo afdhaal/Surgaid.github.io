@@ -1,3 +1,16 @@
-<blockquote class="book-hint {{ .Get 0 }}">
+{{/*  <blockquote class="book-hint {{ .Get 0 }}">
   {{ .Inner | .Page.RenderString }}
+</blockquote>  */}}
+
+{{ $class := .Get 0 }}
+<blockquote class="book-hint {{ $class }}">
+  {{ if eq (index .Params 0) "info" }}<h3>{{ readFile "static/svg/note.svg" | safeHTML }} Note</h3>{{ end }}
+  {{ if eq (index .Params 0) "warning" }}<h3>{{ readFile "static/svg/warning.svg" | safeHTML }} Warning</h3>{{ end }}
+  {{ if eq (index .Params 0) "danger" }}<h3>{{ readFile "static/svg/danger.svg" | safeHTML }} Danger</h3>{{ end }}
+  {{ if eq (index .Params 0) "question" }}<h3>{{ readFile "static/svg/question.svg" | safeHTML }} Question</h3>{{ end }}
+  {{ if eq (index .Params 0) "tip" }}<h3>{{ readFile "static/svg/tip.svg" | safeHTML }} Tip</h3>{{ end }}
+  {{- .Inner | .Page.RenderString -}}
 </blockquote>
+
+
+

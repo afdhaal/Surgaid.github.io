@@ -65,19 +65,44 @@ $tag-border-radius: 3px;
 }
 
 .markdown h1 {
-  color: lightcoral;
+  color: deepskyblue;
+  font-weight: bold;
 }
 
 .markdown h2 {
-  color: mediumseagreen;
+  color: lightseagreen;
+  font-weight: bold;
 }
 
 .markdown h3 {
-  color: mediumturquoise;
+  color: palevioletred;
+  font-weight: bold;
+}
+
+.markdown h4 {
+  color: orange;
+  font-weight: bold;
 }
 
 .markdown h4 {
   color: lightgreen;
+  font-weight: bold;
+}
+
+/* Blockquote */
+.markdown .book-hint.tip {
+  border-color: rgb(102, 255, 222);
+  background-color: rgba(255, 221, 102, .1);
+}
+
+.markdown .book-hint.question {
+  border-color: rgb(235, 255, 102);
+  background-color: rgba(255, 221, 102, .1);
+}
+
+.markdown .book-hint h3 {
+  color: aliceblue;
+  font-weight: 700;
 }
 
 // @import "plugins/numbered";

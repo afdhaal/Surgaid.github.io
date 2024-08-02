@@ -23,6 +23,13 @@
       <description>Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like&#xA;▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become&#xA;▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     <item>
+      <title>🌕 Lipoma</title>
+      <link>http://localhost:1313/posts/lipoma/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lipoma/</guid>
+      <description>Learn more about &lt;em&gt;Les Misérables&lt;/em&gt; by Victor Hugo.</description>
+    </item>
+    <item>
       <title>(Hu)go Template Primer</title>
       <link>http://localhost:1313/posts/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
