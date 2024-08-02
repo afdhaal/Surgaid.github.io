@@ -4,12 +4,12 @@ Date: 2024-07-15
 ---
 
 # Sebaceous cyst
-- When an opening of one sebaceous glands becomes blocked, it distends with sebum, and becomes a sebaceous cyst.
-#### History
+- When an opening of one *sebaceous glands* becomes blocked, it distends with sebum, and becomes a sebaceous cyst.
+## History
 - **Duration** - present for some years
 - **Symptoms** - Multiplicity often multiple
 
-#### Examination
+## Examination
 - **Site** - They are found in the hairy parts of the body. The scalp, scrotum, neck are the common sites. NB: No sebaceous glands on the palms and soles.
 - **Shape and size** - Tense and spherical.
 - **Surface** is smooth. 
@@ -23,6 +23,8 @@ Date: 2024-07-15
 - **Transilluminate** - They do not transilluminate because they are full of sebum.
 - **Relations** - All sebaceous cysts are attached to the skin. Not attached to underlying structure.
 - **Lymph drainage** - Normal.
+
+## Related topics
 ### A sebaceous horn
 - Slowly exuding sebum through a large punctum hardening into a conical spike.
 - A sebaceous horn can therefore only grow if the patient fails to wash!

@@ -55,5 +55,29 @@ $tag-border-radius: 3px;
 }
 
 
+/* MARKDOWN COLOR */
+.markdown b, .markdown optgroup, .markdown strong {
+  color: mediumpurple;
+}
+
+.markdown em {
+  color: yellow;
+}
+
+.markdown h1 {
+  color: lightcoral;
+}
+
+.markdown h2 {
+  color: mediumseagreen;
+}
+
+.markdown h3 {
+  color: mediumturquoise;
+}
+
+.markdown h4 {
+  color: lightgreen;
+}
 
 // @import "plugins/numbered";
