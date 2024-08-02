@@ -1,42 +1,905 @@
-<!doctype html><html lang=en-us dir=ltr><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ <root>/ ▾ images/ logo.png should become
-▾ <root>/ ▾ static/ ▾ images/ logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static."><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="http://localhost:1313/posts/migrate-from-jekyll/"><meta property="og:site_name" content="Surgeons Aid ☘️"><meta property="og:title" content="Migrate to Hugo from Jekyll"><meta property="og:description" content="Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ <root>/ ▾ images/ logo.png should become
-▾ <root>/ ▾ static/ ▾ images/ logo.png Additionally, you’ll want any files that should reside at the root (such as CNAME) to be moved to static."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2014-03-10T00:00:00+00:00"><meta property="article:modified_time" content="2014-03-10T00:00:00+00:00"><title>Migrating from Jekyll | Surgeons Aid ☘️</title>
-<link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png><link rel=canonical href=http://localhost:1313/posts/migrate-from-jekyll/><link rel=stylesheet href=/book.min.522408857a629f4b01130ec3e5f5caefaa4e26473d044725a6527f39760baf39.css integrity="sha256-UiQIhXpin0sBEw7D5fXK76pOJkc9BEclplJ/OXYLrzk=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.ee975e2cdc967edfbe00c2968611ac4d6c1ac290ecbf55b7a39243f665424ef1.js integrity="sha256-7pdeLNyWft++AMKWhhGsTWwawpDsv1W3o5JD9mVCTvE=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
-<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>Surgeons Aid ☘️</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><input type=checkbox id=section-2edb0583ffbf390963fefe4cabf297e4 class=toggle>
-<label for=section-2edb0583ffbf390963fefe4cabf297e4 class="flex justify-between"><a role=button>🩸 Operative surgery</a></label><ul><li><input type=checkbox id=section-66d7c10b30376b30248f7988151d9b6c class=toggle>
-<label for=section-66d7c10b30376b30248f7988151d9b6c class="flex justify-between"><a role=button>🐞 Colonrectal surgery</a></label><ul><li><a href=/docs/surgery/operative/colonsurgery/abdominoperineal-resection/>Abdominoperineal resection</a></li></ul></li></ul></li><li><a href=/docs/surgery/shortcase/>🧬 Short Cases</a><ul><li><a href=/docs/surgery/shortcase/headneck/>🌲 Head Neck</a><ul></ul></li><li><input type=checkbox id=section-13343e0be47846ea9a6c241509541be0 class=toggle>
-<label for=section-13343e0be47846ea9a6c241509541be0 class="flex justify-between"><a role=button>🫀 Vascular Bay</a></label><ul><li><a href=/docs/surgery/shortcase/vascular/other/>🎽 Other</a></li><li><a href=/docs/surgery/shortcase/vascular/limb/>🤸‍♀️ Limb</a></li><li><a href=/docs/surgery/shortcase/vascular/neck/>🦕 Neck</a></li></ul></li><li><input type=checkbox id=section-426a1941677c876f4ef47a932531532e class=toggle>
-<label for=section-426a1941677c876f4ef47a932531532e class="flex justify-between"><a role=button>🦴 Orthopedic Bay</a></label><ul><li><a href=/docs/surgery/shortcase/orthopaedic/hand/>👋 Hand</a></li><li><a href=/docs/surgery/shortcase/orthopaedic/foot/>👠 Foot</a></li><li><a href=/docs/surgery/shortcase/orthopaedic/joints/>🦿 Joint</a></li></ul></li><li><a href=/docs/surgery/shortcase/abdomen/>🪲 Abdominal Bay</a></li><li><input type=checkbox id=section-f6c393f42ac36cb667d7660e03e8b914 class=toggle>
-<label for=section-f6c393f42ac36cb667d7660e03e8b914 class="flex justify-between"><a href=/docs/surgery/shortcase/skin/>🧘‍♀️ Skin & Subcutaneous</a></label><ul><li><a href=/docs/surgery/shortcase/skin/lipoma/>🌕 Lipoma</a></li></ul></li></ul></li><li><input type=checkbox id=section-21de28dea88920386a9a3a0a92532c80 class=toggle>
-<label for=section-21de28dea88920386a9a3a0a92532c80 class="flex justify-between"><a role=button>🍖 Surgical Anatomy</a></label><ul><li><a href=/docs/surgery/anatomy/tracheostomy/>🐢 Tracheostomy</a></li></ul></li><li><input type=checkbox id=section-499d95a4c14bdbd1082980c3077de00a class=toggle>
-<label for=section-499d95a4c14bdbd1082980c3077de00a class="flex justify-between"><a role=button>🦠 Long cases</a></label><ul><li><a href=/docs/surgery/longcase/bleeding-pr/>⛑️ Bleeding per rectum</a></li><li><a href=/docs/surgery/longcase/bladder-ca/>👒 Bladder CA</a></li></ul></li><li class=book-section-flat><span>Pages</span><ul><li><input type=checkbox id=section-da81659bf6edd539515a8d01a515f94d class=toggle>
-<label for=section-da81659bf6edd539515a8d01a515f94d class="flex justify-between"><a href=/docs/pages/signs/>Signs</a></label><ul><li><a href=/docs/pages/signs/a-signs/>A Signs</a></li><li><a href=/docs/pages/signs/b-sign/>B Sign</a></li></ul></li><li><a href=/docs/pages/triangles-in-surgery/>Triangles in Surgery</a></li><li><a href=/docs/pages/tabs/>Demo</a></li></ul></li></ul><ul><li><a href=/posts/>🍀 Surgical Notes</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu>
-</label><strong>Migrating from Jekyll</strong>
-<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><h2>Table of Contents</h2><nav id=TableOfContents><ul><li><a href=#move-static-content-to-static>Move static content to <code>static</code></a></li><li><a href=#create-your-hugo-configuration-file>Create your Hugo configuration file</a></li><li><a href=#set-your-configuration-publish-folder-to-_site>Set your configuration publish folder to <code>_site</code></a></li><li><a href=#convert-jekyll-templates-to-hugo-templates>Convert Jekyll templates to Hugo templates</a></li><li><a href=#convert-jekyll-plugins-to-hugo-shortcodes>Convert Jekyll plugins to Hugo shortcodes</a><ul><li><a href=#implementation>Implementation</a></li><li><a href=#usage>Usage</a></li></ul></li><li><a href=#finishing-touches>Finishing touches</a><ul><li><a href=#fix-content>Fix content</a></li><li><a href=#clean-up>Clean up</a></li></ul></li><li><a href=#a-practical-example-in-a-diff>A practical example in a diff</a></li></ul></nav></aside></header><article class="markdown book-post"><h1><a href=/posts/migrate-from-jekyll/>Migrating from Jekyll</a></h1><h5>March 10, 2014</h5><h2 id=move-static-content-to-static>Move static content to <code>static</code>
-<a class=anchor href=#move-static-content-to-static>#</a></h2><p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
-With Jekyll, something that looked like</p><pre><code>▾ &lt;root&gt;/
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/migrate-from-jekyll/">
+  <meta property="og:site_name" content="Surgeons Aid ☘️">
+  <meta property="og:title" content="Migrate to Hugo from Jekyll">
+  <meta property="og:description" content="Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png Additionally, you’ll want any files that should reside at the root (such as CNAME) to be moved to static.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2014-03-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2014-03-10T00:00:00+00:00">
+<title>Migrating from Jekyll | Surgeons Aid ☘️</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/posts/migrate-from-jekyll/">
+<link rel="stylesheet" href="/book.min.522408857a629f4b01130ec3e5f5caefaa4e26473d044725a6527f39760baf39.css" integrity="sha256-UiQIhXpin0sBEw7D5fXK76pOJkc9BEclplJ/OXYLrzk=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.beba90895b1f7e92f4e35a73216f663c5cbf88097328d601a8628b955e3e16b0.js" integrity="sha256-vrqQiVsffpL041pzIW9mPFy/iAlzKNYBqGKLlV4&#43;FrA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Surgeons Aid ☘️</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2edb0583ffbf390963fefe4cabf297e4" class="toggle"  />
+    <label for="section-2edb0583ffbf390963fefe4cabf297e4" class="flex justify-between">
+      <a role="button" class="">🩸 Operative surgery</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-66d7c10b30376b30248f7988151d9b6c" class="toggle"  />
+    <label for="section-66d7c10b30376b30248f7988151d9b6c" class="flex justify-between">
+      <a role="button" class="">🐞 Colonrectal surgery</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/operative/colonsurgery/abdominoperineal-resection/" class="">Abdominoperineal resection</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-891e87293a239039f9be94a01ab4e398" class="toggle"  />
+    <label for="section-891e87293a239039f9be94a01ab4e398" class="flex justify-between">
+      <a role="button" class="">🐞 Colonrectal surgery</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-04187affd23247d16ed57d4939e48e97" class="toggle"  />
+    <label for="section-04187affd23247d16ed57d4939e48e97" class="flex justify-between">
+      <a role="button" class="">🐞 Colonrectal surgery</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6a116e54af407eb684e1d134ef4c29ad" class="toggle"  />
+    <label for="section-6a116e54af407eb684e1d134ef4c29ad" class="flex justify-between">
+      <a role="button" class="">🐞 Colonrectal surgery</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c66ee831eff96d954257af2b159c6c38" class="toggle"  />
+    <label for="section-c66ee831eff96d954257af2b159c6c38" class="flex justify-between">
+      <a role="button" class="">🐞 Colonrectal surgery</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0c04b9b385ed1c1c309d7b0d45502b5a" class="toggle"  />
+    <label for="section-0c04b9b385ed1c1c309d7b0d45502b5a" class="flex justify-between">
+      <a href="/docs/surgery/operative/gi/" class="">🐞 Gastroinstestinal</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/" class="">🧬 Short Cases</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/headneck/" class="">🌲 Head Neck</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/genitourinary/" class="">🔥 Genitourinary</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-13343e0be47846ea9a6c241509541be0" class="toggle"  />
+    <label for="section-13343e0be47846ea9a6c241509541be0" class="flex justify-between">
+      <a role="button" class="">🫀 Vascular Bay</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/vascular/other/" class="">🎽 Other</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/vascular/limb/" class="">🤸‍♀️ Limb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/vascular/neck/" class="">🦕 Neck</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-426a1941677c876f4ef47a932531532e" class="toggle"  />
+    <label for="section-426a1941677c876f4ef47a932531532e" class="flex justify-between">
+      <a role="button" class="">🦴 Orthopedic Bay</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/orthopaedic/hand/" class="">👋 Hand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/orthopaedic/foot/" class="">👠 Foot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/orthopaedic/otherortho/" class="">🏒 Ortho Other</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/orthopaedic/joints/" class="">🦿 Joint</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/abdomenchest/" class="">🪲 Abdominal &amp; Chest Bay</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f6c393f42ac36cb667d7660e03e8b914" class="toggle"  />
+    <label for="section-f6c393f42ac36cb667d7660e03e8b914" class="flex justify-between">
+      <a href="/docs/surgery/shortcase/skin/" class="">🧘‍♀️ Skin &amp; Subcutaneous</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/shortcase/skin/lipoma/" class="">🌕 Lipoma</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-21de28dea88920386a9a3a0a92532c80" class="toggle"  />
+    <label for="section-21de28dea88920386a9a3a0a92532c80" class="flex justify-between">
+      <a role="button" class="">🍖 Surgical Anatomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/anatomy/tracheostomy/" class="">🐢 Tracheostomy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/longcase/" class="">🦠 Long cases</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4080d22ced87b4810e4645c0419de7bf" class="toggle"  />
+    <label for="section-4080d22ced87b4810e4645c0419de7bf" class="flex justify-between">
+      <a href="/docs/surgery/longcase/genitourinary/" class="">🍑 Genitourinary</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/longcase/genitourinary/bladder-ca/" class="">👒 Bladder CA</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3c4a764ef61d77ea173d14e6584a5334" class="toggle"  />
+    <label for="section-3c4a764ef61d77ea173d14e6584a5334" class="flex justify-between">
+      <a href="/docs/surgery/longcase/breastendo/" class="">🎠 Onco, Breast Endocrine</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-27564f0fec3326e1feb8173d11662d42" class="toggle"  />
+    <label for="section-27564f0fec3326e1feb8173d11662d42" class="flex justify-between">
+      <a href="/docs/surgery/longcase/gi/" class="">🥑 Gastrointestinal</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/surgery/longcase/gi/bleeding-pr/" class="">⛑️ Bleeding per rectum</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0d5a7e48c31dd5b8ef11749d1b28982e" class="toggle"  />
+    <label for="section-0d5a7e48c31dd5b8ef11749d1b28982e" class="flex justify-between">
+      <a href="/docs/surgery/longcase/vascularortho/" class="">🦴 Orthopedic &amp; Vascular</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Pages</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-da81659bf6edd539515a8d01a515f94d" class="toggle"  />
+    <label for="section-da81659bf6edd539515a8d01a515f94d" class="flex justify-between">
+      <a href="/docs/pages/signs/" class="">Signs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/pages/signs/a-signs/" class="">A Signs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/pages/signs/b-sign/" class="">B Sign</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/pages/triangles-in-surgery/" class="">Triangles in Surgery</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/pages/tabs/" class="">Demo</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        🍀 Surgical Notes
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Migrating from Jekyll</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#move-static-content-to-static">Move static content to <code>static</code></a></li>
+    <li><a href="#create-your-hugo-configuration-file">Create your Hugo configuration file</a></li>
+    <li><a href="#set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code></a></li>
+    <li><a href="#convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</a></li>
+    <li><a href="#convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</a>
+      <ul>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+    <li><a href="#finishing-touches">Finishing touches</a>
+      <ul>
+        <li><a href="#fix-content">Fix content</a></li>
+        <li><a href="#clean-up">Clean up</a></li>
+      </ul>
+    </li>
+    <li><a href="#a-practical-example-in-a-diff">A practical example in a diff</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    <a href="/posts/migrate-from-jekyll/">Migrating from Jekyll</a>
+  </h1>
+  
+  <h5>March 10, 2014</h5>
+
+
+
+  
+
+  
+
+
+
+<h2 id="move-static-content-to-static">
+  Move static content to <code>static</code>
+  <a class="anchor" href="#move-static-content-to-static">#</a>
+</h2>
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
+<pre><code>▾ &lt;root&gt;/
     ▾ images/
         logo.png
-</code></pre><p>should become</p><pre><code>▾ &lt;root&gt;/
+</code></pre>
+<p>should become</p>
+<pre><code>▾ &lt;root&gt;/
     ▾ static/
         ▾ images/
             logo.png
-</code></pre><p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p><h2 id=create-your-hugo-configuration-file>Create your Hugo configuration file
-<a class=anchor href=#create-your-hugo-configuration-file>#</a></h2><p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href=/overview/configuration/>Hugo configuration documentation</a> for details.</p><h2 id=set-your-configuration-publish-folder-to-_site>Set your configuration publish folder to <code>_site</code>
-<a class=anchor href=#set-your-configuration-publish-folder-to-_site>#</a></h2><p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href=http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p><ol><li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p><pre><code> git submodule deinit _site
+</code></pre>
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
+<h2 id="create-your-hugo-configuration-file">
+  Create your Hugo configuration file
+  <a class="anchor" href="#create-your-hugo-configuration-file">#</a>
+</h2>
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+<h2 id="set-your-configuration-publish-folder-to-_site">
+  Set your configuration publish folder to <code>_site</code>
+  <a class="anchor" href="#set-your-configuration-publish-folder-to-_site">#</a>
+</h2>
+<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
+<ol>
+<li>
+<p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
+<pre><code> git submodule deinit _site
  git rm _site
  git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
-</code></pre></li><li><p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p><pre><code> {
+</code></pre>
+</li>
+<li>
+<p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
+<pre><code> {
      ..
      &quot;publishdir&quot;: &quot;_site&quot;,
      ..
  }
-</code></pre></li></ol><h2 id=convert-jekyll-templates-to-hugo-templates>Convert Jekyll templates to Hugo templates
-<a class=anchor href=#convert-jekyll-templates-to-hugo-templates>#</a></h2><p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href=http://jekyllrb.com/docs/templates/>Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href=/layout/templates/>Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p><p>As a single reference data point, converting my templates for <a href=http://heyitsalex.net/>heyitsalex.net</a> took me no more than a few hours.</p><h2 id=convert-jekyll-plugins-to-hugo-shortcodes>Convert Jekyll plugins to Hugo shortcodes
-<a class=anchor href=#convert-jekyll-plugins-to-hugo-shortcodes>#</a></h2><p>Jekyll has <a href=http://jekyllrb.com/docs/plugins/>plugins</a>; Hugo has <a href=/doc/shortcodes/>shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p><h3 id=implementation>Implementation
-<a class=anchor href=#implementation>#</a></h3><p>As an example, I was using a custom <a href=https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p><p>Jekyll&rsquo;s plugin:</p><pre><code>module Jekyll
+</code></pre>
+</li>
+</ol>
+<h2 id="convert-jekyll-templates-to-hugo-templates">
+  Convert Jekyll templates to Hugo templates
+  <a class="anchor" href="#convert-jekyll-templates-to-hugo-templates">#</a>
+</h2>
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
+<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">
+  Convert Jekyll plugins to Hugo shortcodes
+  <a class="anchor" href="#convert-jekyll-plugins-to-hugo-shortcodes">#</a>
+</h2>
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+<h3 id="implementation">
+  Implementation
+  <a class="anchor" href="#implementation">#</a>
+</h3>
+<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
+<p>Jekyll&rsquo;s plugin:</p>
+<pre><code>module Jekyll
   class ImageTag &lt; Liquid::Tag
     @url = nil
     @caption = nil
@@ -89,7 +952,9 @@ With Jekyll, something that looked like</p><pre><code>▾ &lt;root&gt;/
   end
 end
 Liquid::Template.register_tag('image', Jekyll::ImageTag)
-</code></pre><p>is written as this Hugo shortcode:</p><pre><code>&lt;!-- image --&gt;
+</code></pre>
+<p>is written as this Hugo shortcode:</p>
+<pre><code>&lt;!-- image --&gt;
 &lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
     {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
         &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
@@ -107,11 +972,122 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
     {{ end }}
 &lt;/figure&gt;
 &lt;!-- image --&gt;
-</code></pre><h3 id=usage>Usage
-<a class=anchor href=#usage>#</a></h3><p>I simply changed:</p><pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
-</code></pre><p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p><pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
-</code></pre><p>As a bonus, the shortcode named parameters are, arguably, more readable.</p><h2 id=finishing-touches>Finishing touches
-<a class=anchor href=#finishing-touches>#</a></h2><h3 id=fix-content>Fix content
-<a class=anchor href=#fix-content>#</a></h3><p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p><h3 id=clean-up>Clean up
-<a class=anchor href=#clean-up>#</a></h3><p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p><h2 id=a-practical-example-in-a-diff>A practical example in a diff
-<a class=anchor href=#a-practical-example-in-a-diff>#</a></h2><p><a href=http://heyitsalex.net/>Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href=https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610>diff</a>.</p></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><h2>Table of Contents</h2><nav id=TableOfContents><ul><li><a href=#move-static-content-to-static>Move static content to <code>static</code></a></li><li><a href=#create-your-hugo-configuration-file>Create your Hugo configuration file</a></li><li><a href=#set-your-configuration-publish-folder-to-_site>Set your configuration publish folder to <code>_site</code></a></li><li><a href=#convert-jekyll-templates-to-hugo-templates>Convert Jekyll templates to Hugo templates</a></li><li><a href=#convert-jekyll-plugins-to-hugo-shortcodes>Convert Jekyll plugins to Hugo shortcodes</a><ul><li><a href=#implementation>Implementation</a></li><li><a href=#usage>Usage</a></li></ul></li><li><a href=#finishing-touches>Finishing touches</a><ul><li><a href=#fix-content>Fix content</a></li><li><a href=#clean-up>Clean up</a></li></ul></li><li><a href=#a-practical-example-in-a-diff>A practical example in a diff</a></li></ul></nav></div></aside></main></body></html>
+</code></pre>
+<h3 id="usage">
+  Usage
+  <a class="anchor" href="#usage">#</a>
+</h3>
+<p>I simply changed:</p>
+<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
+</code></pre>
+<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
+<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
+</code></pre>
+<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
+<h2 id="finishing-touches">
+  Finishing touches
+  <a class="anchor" href="#finishing-touches">#</a>
+</h2>
+<h3 id="fix-content">
+  Fix content
+  <a class="anchor" href="#fix-content">#</a>
+</h3>
+<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
+<h3 id="clean-up">
+  Clean up
+  <a class="anchor" href="#clean-up">#</a>
+</h3>
+<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
+<h2 id="a-practical-example-in-a-diff">
+  A practical example in a diff
+  <a class="anchor" href="#a-practical-example-in-a-diff">#</a>
+</h2>
+<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+
+      <div class="book-toc-content">    
+        
+  
+<h2>Table of Contents</h2>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#move-static-content-to-static">Move static content to <code>static</code></a></li>
+    <li><a href="#create-your-hugo-configuration-file">Create your Hugo configuration file</a></li>
+    <li><a href="#set-your-configuration-publish-folder-to-_site">Set your configuration publish folder to <code>_site</code></a></li>
+    <li><a href="#convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</a></li>
+    <li><a href="#convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</a>
+      <ul>
+        <li><a href="#implementation">Implementation</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+    <li><a href="#finishing-touches">Finishing touches</a>
+      <ul>
+        <li><a href="#fix-content">Fix content</a></li>
+        <li><a href="#clean-up">Clean up</a></li>
+      </ul>
+    </li>
+    <li><a href="#a-practical-example-in-a-diff">A practical example in a diff</a></li>
+  </ul>
+</nav>
+
+
+ 
+        
+
+      </div>
+      
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

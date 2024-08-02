@@ -1,1 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Surgeons Aid ☘️</title><link>http://localhost:1313/categories/</link><description>Recent content in Categories on Surgeons Aid ☘️</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Examination</title><link>http://localhost:1313/categories/examination/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/categories/examination/</guid><description/></item><item><title>Short Case</title><link>http://localhost:1313/categories/short-case/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/categories/short-case/</guid><description/></item><item><title>GI Anatomy</title><link>http://localhost:1313/categories/gi-anatomy/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/gi-anatomy/</guid><description/></item><item><title>Surgical Anatomy</title><link>http://localhost:1313/categories/surgical-anatomy/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/surgical-anatomy/</guid><description/></item><item><title>Head &amp; Neck</title><link>http://localhost:1313/categories/head--neck/</link><pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/head--neck/</guid><description/></item><item><title>Development</title><link>http://localhost:1313/categories/development/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/development/</guid><description/></item><item><title>Golang</title><link>http://localhost:1313/categories/golang/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/golang/</guid><description/></item><item><title>Anatomy</title><link>http://localhost:1313/categories/anatomy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/anatomy/</guid><description/></item><item><title>Head and Neck</title><link>http://localhost:1313/categories/head-and-neck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/head-and-neck/</guid><description/></item><item><title>Longcase</title><link>http://localhost:1313/categories/longcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/longcase/</guid><description/></item><item><title>Operative Surgery</title><link>http://localhost:1313/categories/operative-surgery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/categories/operative-surgery/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Surgeons Aid ☘️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Examination</title>
+      <link>http://localhost:1313/categories/examination/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/categories/examination/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Short Case</title>
+      <link>http://localhost:1313/categories/short-case/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/categories/short-case/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GI Anatomy</title>
+      <link>http://localhost:1313/categories/gi-anatomy/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/gi-anatomy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Surgical Anatomy</title>
+      <link>http://localhost:1313/categories/surgical-anatomy/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/surgical-anatomy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genitourinary</title>
+      <link>http://localhost:1313/categories/genitourinary/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/genitourinary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Head &amp; Neck</title>
+      <link>http://localhost:1313/categories/head--neck/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/head--neck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcase</title>
+      <link>http://localhost:1313/categories/shortcase/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/shortcase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>http://localhost:1313/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>http://localhost:1313/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anatomy</title>
+      <link>http://localhost:1313/categories/anatomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/anatomy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Head and Neck</title>
+      <link>http://localhost:1313/categories/head-and-neck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/head-and-neck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Longcase</title>
+      <link>http://localhost:1313/categories/longcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/longcase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operative Surgery</title>
+      <link>http://localhost:1313/categories/operative-surgery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/operative-surgery/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

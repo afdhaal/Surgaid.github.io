@@ -1,1 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Short Case on Surgeons Aid ☘️</title><link>http://localhost:1313/categories/short-case/</link><description>Recent content in Short Case on Surgeons Aid ☘️</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/categories/short-case/index.xml" rel="self" type="application/rss+xml"/><item><title>🌲 Head Neck</title><link>http://localhost:1313/docs/surgery/shortcase/headneck/</link><pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/headneck/</guid><description> Parotid and Submandibular salivary gland. Submandibular lump Oral / tongue ulcer Parotid lump Proptosis Carcinoma of maxillary sinus Facial lumps Retention cyst in the mouth</description></item><item><title>🎽 Other</title><link>http://localhost:1313/docs/surgery/shortcase/vascular/other/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/vascular/other/</guid><description> Miscellaneous # AAA Young hypertensive</description></item><item><title>👋 Hand</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</guid><description>Hand # Pointing index Mallet finger Wasting of small muscles Wrist drop Wrist lumps ganglion Claw hand CTS De Quervain&amp;rsquo;s Tenosynovitis Principles of hand examination # Principles include includes inspection palpation Feel Move Range of movement Ease of movement Inspection invisible scars over common surgical sites contour of the hand discoloration and sinuses. Also check muscle wasting, Thenar eminence Hypothenar eminence dorsal side of hand the muscle bulk between metacarpal bones which is interosseous muscle Palpation.</description></item><item><title>👠 Foot</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</guid><description> Foot # Halux valgus Ingrowing toenail Bunion</description></item><item><title>🤸‍♀️ Limb</title><link>http://localhost:1313/docs/surgery/shortcase/vascular/limb/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/vascular/limb/</guid><description> Limb # Foot ulcer Amputation stump AV malformation popliteal fossa Neuropathic sole ulcer Varicose veins Digital gangrene / Dry gangrene Unilateral limb swelling Chronic limb ulcer Pseudoaneurysm / AVF</description></item><item><title>🦕 Neck</title><link>http://localhost:1313/docs/surgery/shortcase/vascular/neck/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/vascular/neck/</guid><description> Neck # Anterior triangle lump (Carotid triangle / sternomastoid) Carotid body tumour</description></item><item><title>🪲 Abdominal Bay</title><link>http://localhost:1313/docs/surgery/shortcase/abdomen/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/abdomen/</guid><description> Abdominal short cases # Incisional hernia abdominal mass Liver mets, ascites, Enterocutaneous fistula PUH Epigastric / RHC mass Liver Ca, Pancreas CA, Pseudocyst, Gastric CA RIF / LIF mass Urinary fistula</description></item><item><title>🦿 Joint</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</guid><description> Major joints # Genu valgum Knee lumps CDH Limping Child Slipped upper femoral epiphysis CTEV Elbow lumps</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Short Case on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/categories/short-case/</link>
+    <description>Recent content in Short Case on Surgeons Aid ☘️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/short-case/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌲 Head Neck</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/headneck/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/headneck/</guid>
+      <description> Head # Parotid and Submandibular salivary gland. Submandibular lump Oral / tongue ulcer Parotid lump Proptosis Carcinoma of maxillary sinus Facial lumps Retention cyst in the mouth Neck # Midline neck lump Goitre / solitary nodule Posterior triangle lump Suprasternal / supraclavicular lump CUP Cervical LN, Cervical rib Goitre / Solitary nodule Cystic hygroma </description>
+    </item>
+    <item>
+      <title>🎽 Other</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/vascular/other/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/vascular/other/</guid>
+      <description> Miscellaneous # AAA Young hypertensive </description>
+    </item>
+    <item>
+      <title>👋 Hand</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</guid>
+      <description>Hand # Pointing index Mallet finger Wasting of small muscles Wrist drop Wrist lumps ganglion Claw hand CTS De Quervain&amp;rsquo;s Tenosynovitis Principles of hand examination # Principles include includes inspection palpation Feel Move Range of movement Ease of movement Inspection invisible scars over common surgical sites contour of the hand discoloration and sinuses. Also check muscle wasting, Thenar eminence Hypothenar eminence dorsal side of hand the muscle bulk between metacarpal bones which is interosseous muscle Palpation.</description>
+    </item>
+    <item>
+      <title>👠 Foot</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</guid>
+      <description> Foot # Halux valgus Ingrowing toenail Bunion </description>
+    </item>
+    <item>
+      <title>🏒 Ortho Other</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/otherortho/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/otherortho/</guid>
+      <description> Other ortho shortcases # Forearm lumps Tendon injuries - Achilles heel Myositis ossificans Nerve injuries Osteosarcoma / bone tumour POP cast Colles/ AK POP Volkmann&amp;rsquo;s ischaemic contracture External fixator Complicated fracture POP </description>
+    </item>
+    <item>
+      <title>🤸‍♀️ Limb</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/vascular/limb/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/vascular/limb/</guid>
+      <description> Limb # Foot ulcer Amputation stump AV malformation popliteal fossa Neuropathic sole ulcer Varicose veins Digital gangrene / Dry gangrene Unilateral limb swelling Chronic limb ulcer Pseudoaneurysm / AVF </description>
+    </item>
+    <item>
+      <title>🦕 Neck</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/vascular/neck/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/vascular/neck/</guid>
+      <description> Neck # Anterior triangle lump (Carotid triangle / sternomastoid) Carotid body tumour </description>
+    </item>
+    <item>
+      <title>🪲 Abdominal &amp; Chest Bay</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/abdomenchest/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/abdomenchest/</guid>
+      <description> Abdominal short cases # Incisional hernia abdominal mass Liver mets, ascites, Enterocutaneous fistula PUH Epigastric / RHC mass Liver Ca, Pancreas CA, Pseudocyst, Gastric CA RIF / LIF mass Urinary fistula Femoral hernia Inguinal hernia Ileostomy / Colostomy Chest short cases # Breast CA axillary lumps Breast lump / gynaecomastia Vesicular eruptions of chest Pancoast lump Chest wall lesions Hydradenitis Axillary lumps </description>
+    </item>
+    <item>
+      <title>🦿 Joint</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</guid>
+      <description> Major joints # Genu valgum Knee lumps CDH Limping Child Slipped upper femoral epiphysis CTEV Elbow lumps </description>
+    </item>
+  </channel>
+</rss>

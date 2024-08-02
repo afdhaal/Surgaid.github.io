@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🦴 Orthopedic Bay on Surgeons Aid ☘️</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/</link><description>Recent content in 🦴 Orthopedic Bay on Surgeons Aid ☘️</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/docs/surgery/shortcase/orthopaedic/index.xml" rel="self" type="application/rss+xml"/><item><title>👋 Hand</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</guid><description>Hand # Pointing index Mallet finger Wasting of small muscles Wrist drop Wrist lumps ganglion Claw hand CTS De Quervain&amp;rsquo;s Tenosynovitis Principles of hand examination # Principles include includes inspection palpation Feel Move Range of movement Ease of movement Inspection invisible scars over common surgical sites contour of the hand discoloration and sinuses. Also check muscle wasting, Thenar eminence Hypothenar eminence dorsal side of hand the muscle bulk between metacarpal bones which is interosseous muscle Palpation.</description></item><item><title>👠 Foot</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</guid><description> Foot # Halux valgus Ingrowing toenail Bunion</description></item><item><title>🏒 Ortho Other</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/otherortho/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/otherortho/</guid><description> Other ortho shortcases # Forearm lumps Tendon injuries - Achilles heel Myositis ossificans Nerve injuries Osteosarcoma / bone tumour POP cast Colles/ AK POP Volkmann&amp;rsquo;s ischaemic contracture External fixator Complicated fracture POP</description></item><item><title>🦿 Joint</title><link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</guid><description> Major joints # Genu valgum Knee lumps CDH Limping Child Slipped upper femoral epiphysis CTEV Elbow lumps</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🦴 Orthopedic Bay on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/</link>
+    <description>Recent content in 🦴 Orthopedic Bay on Surgeons Aid ☘️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/surgery/shortcase/orthopaedic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>👋 Hand</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/hand/</guid>
+      <description>Hand # Pointing index Mallet finger Wasting of small muscles Wrist drop Wrist lumps ganglion Claw hand CTS De Quervain&amp;rsquo;s Tenosynovitis Principles of hand examination # Principles include includes inspection palpation Feel Move Range of movement Ease of movement Inspection invisible scars over common surgical sites contour of the hand discoloration and sinuses. Also check muscle wasting, Thenar eminence Hypothenar eminence dorsal side of hand the muscle bulk between metacarpal bones which is interosseous muscle Palpation.</description>
+    </item>
+    <item>
+      <title>👠 Foot</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/foot/</guid>
+      <description> Foot # Halux valgus Ingrowing toenail Bunion </description>
+    </item>
+    <item>
+      <title>🏒 Ortho Other</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/otherortho/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/otherortho/</guid>
+      <description> Other ortho shortcases # Forearm lumps Tendon injuries - Achilles heel Myositis ossificans Nerve injuries Osteosarcoma / bone tumour POP cast Colles/ AK POP Volkmann&amp;rsquo;s ischaemic contracture External fixator Complicated fracture POP </description>
+    </item>
+    <item>
+      <title>🦿 Joint</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/orthopaedic/joints/</guid>
+      <description> Major joints # Genu valgum Knee lumps CDH Limping Child Slipped upper femoral epiphysis CTEV Elbow lumps </description>
+    </item>
+  </channel>
+</rss>

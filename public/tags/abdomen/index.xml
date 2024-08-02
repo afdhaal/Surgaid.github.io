@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abdomen on Surgeons Aid ☘️</title><link>http://localhost:1313/tags/abdomen/</link><description>Recent content in Abdomen on Surgeons Aid ☘️</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate><atom:link href="http://localhost:1313/tags/abdomen/index.xml" rel="self" type="application/rss+xml"/><item><title>🪲 Abdominal Bay</title><link>http://localhost:1313/docs/surgery/shortcase/abdomen/</link><pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate><guid>http://localhost:1313/docs/surgery/shortcase/abdomen/</guid><description> Abdominal short cases # Incisional hernia abdominal mass Liver mets, ascites, Enterocutaneous fistula PUH Epigastric / RHC mass Liver Ca, Pancreas CA, Pseudocyst, Gastric CA RIF / LIF mass Urinary fistula</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abdomen on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/tags/abdomen/</link>
+    <description>Recent content in Abdomen on Surgeons Aid ☘️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jul 2024 04:14:54 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/abdomen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🪲 Abdominal &amp; Chest Bay</title>
+      <link>http://localhost:1313/docs/surgery/shortcase/abdomenchest/</link>
+      <pubDate>Mon, 15 Jul 2024 04:14:54 -0800</pubDate>
+      <guid>http://localhost:1313/docs/surgery/shortcase/abdomenchest/</guid>
+      <description> Abdominal short cases # Incisional hernia abdominal mass Liver mets, ascites, Enterocutaneous fistula PUH Epigastric / RHC mass Liver Ca, Pancreas CA, Pseudocyst, Gastric CA RIF / LIF mass Urinary fistula Femoral hernia Inguinal hernia Ileostomy / Colostomy Chest short cases # Breast CA axillary lumps Breast lump / gynaecomastia Vesicular eruptions of chest Pancoast lump Chest wall lesions Hydradenitis Axillary lumps </description>
+    </item>
+  </channel>
+</rss>
