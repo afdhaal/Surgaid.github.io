@@ -6,9 +6,9 @@
   </dt>
   {{ if .Page.Params.Summary  -}}
   <dd class="markdown-inner">
-
+    <hr>
     {{ default .Summary .Description }}
-
+    <br><a href="{{ .RelPermalink }}" class="book-btn">Read More..</a>
   </dd>
   {{ end -}}
 </blockquote>

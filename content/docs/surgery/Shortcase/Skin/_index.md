@@ -11,20 +11,20 @@ layout: single
 
 ## Examine the following lump
 - External angular lumps 
-- Scalp lump 
+- [x]Scalp lump 
 - bony / soft Scapular lumps 
-- Sebaceous cyst 
+- [x] Sebaceous cyst 
 - Skin lesions 
 - melanoma/squamous 
 - ca/basal cell ca 
-- Keloid / hypertrophic scar 
+- [ ] Keloid / hypertrophic scar 
 - Leukoplakia 
-- Lipoma 
+- [x] Lipoma 
 - Neurofibroma 
 - Subungual lesions 
 - Buttock, thigh and calf lumps 
 - Bone Iiry, 
-- Dermoid cyst
+- [ ] Dermoid cyst
 
 ## Cases
 

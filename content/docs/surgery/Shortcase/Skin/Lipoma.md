@@ -19,12 +19,10 @@ params:
 # Lipoma
 - This is a *cluster of fat cells* that have become *overactive and so distended* with fat. 
 - They are never malignant.
-## History
 
+## History
 - **Duration** - months to years
 - **Symptom** - often have multiple lipomas
-
-
 - **Multiplicity** - Often Multiple
 
 {{< hint "tip" >}}
