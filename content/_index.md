@@ -21,3 +21,7 @@ bookToc: false
 <--->
 {{< card "Core Surgery" "🌸" "/categories/coresurgery/" "F4A261" >}}
 {{< /cards >}}
+
+
+## Latest Posts
+{{< latestposts >}}
