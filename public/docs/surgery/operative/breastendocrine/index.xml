@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>🐞 Colonrectal surgery on Surgeons Aid ☘️</title>
+    <title>🌼 Breast &amp; Endocrine on Surgeons Aid ☘️</title>
     <link>http://localhost:1313/docs/surgery/operative/breastendocrine/</link>
-    <description>Recent content in 🐞 Colonrectal surgery on Surgeons Aid ☘️</description>
+    <description>Recent content in 🌼 Breast &amp; Endocrine on Surgeons Aid ☘️</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/surgery/operative/breastendocrine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌸 Mastectomy</title>
+      <link>http://localhost:1313/docs/surgery/operative/breastendocrine/mastectomy/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/surgery/operative/breastendocrine/mastectomy/</guid>
+      <description>MASTECTOMY # Pre-operative # Consent # Discuss reconstruction options. Present alternatives (e.g., Breast-Conserving Surgery). Inform about post-operative chemotherapy and radiotherapy. Explain potential post-operative complications. Pre-operative Ward Preparation # Mark the surgical site. Mark the incision in the supine position and verify in the sitting position. Ensure 1 pint of blood is ready. Shave the axilla. In the Theatre # Preparation # WHO safety checklist. Position patient supine arm abducted at 90 degrees on an arm board, with a sandbag under the ipsilateral scapula.</description>
+    </item>
   </channel>
 </rss>

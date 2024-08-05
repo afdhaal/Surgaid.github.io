@@ -2,7 +2,7 @@
 weight: 10
 bookCollapseSection: true
 title: "🩸 Operative surgery"
-draft: true
+draft: false
 # layout: blog
 ---
 
