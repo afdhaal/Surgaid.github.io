@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sri Lanka on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/tags/sri-lanka/</link>
+    <description>Recent content in Sri Lanka on Surgeons Aid ☘️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sri-lanka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏵️ SL Breast Guideline Summary</title>
+      <link>http://localhost:1313/posts/caudaequinafootdropclaudication-copy/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/caudaequinafootdropclaudication-copy/</guid>
+      <description>Clinical Evaluation # The triple assessment of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer. Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae. Stage the tumor according to the American Joint Committee on Cancer staging system. graph TB A[Hx &amp;amp; Ex] ==&amp;gt; Imaging ==&amp;gt; Pathology ==&amp;gt; Staging subgraph Imaging direction TB z[B/L USS &amp;lt;/br&amp;gt;&amp;amp; Mammo]--if inconlusive &amp;lt;/br&amp;gt; &amp;lt;40yr, Before NACT--&amp;gt; V[MRI] end subgraph Pathology direction TB Biopsy[Core biopsy + &amp;lt;/br&amp;gt; FNAC of LN] --&amp;gt; Histology(Histology &amp;lt;/br&amp;gt; type &amp;amp; grade) Biopsy--&amp;gt; IHC[IHC: ER, PR, Her-2, Ki-67] end subgraph Staging direction TB Nodes[T3,T4/N2 or Mets]--&amp;gt;CT[CT chest &amp;amp; Abdomen &amp;lt;/br&amp;gt; Bone Synctigraphy] end Imaging # All patients with suspected breast cancer should undergo bilateral mammography and ultrasonography before pathological evaluation.</description>
+    </item>
+  </channel>
+</rss>

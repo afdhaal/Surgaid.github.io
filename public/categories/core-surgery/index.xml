@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>🍀 Surgical Notes on Surgeons Aid ☘️</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in 🍀 Surgical Notes on Surgeons Aid ☘️</description>
+    <title>Core Surgery on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/categories/core-surgery/</link>
+    <description>Recent content in Core Surgery on Surgeons Aid ☘️</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>🏵️ SL Breast Guideline Summary</title>
-      <link>http://localhost:1313/posts/caudaequinafootdropclaudication-copy/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/caudaequinafootdropclaudication-copy/</guid>
-      <description>Clinical Evaluation # The triple assessment of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer. Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae. Stage the tumor according to the American Joint Committee on Cancer staging system. Imaging # All patients with suspected breast cancer should undergo bilateral mammography and ultrasonography before pathological evaluation.</description>
-    </item>
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/core-surgery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>👢 Cauda equina syndrome, Acute foot drop &amp; neurogenic claudication</title>
       <link>http://localhost:1313/posts/caudaequinafootdropclaudication/</link>
