@@ -72,10 +72,10 @@ params:
 
 
 {{< hint "tip" >}}
- - Remark the incision with methylene blue.
-> 
-> **Tip for Marking the incision**
- - Mark the medial and lateral ends.
+- Remark the incision with methylene blue.
+
+**Tip for Marking the incision**
+- Mark the medial and lateral ends.
 - Draw the breast firmly downwards and mark a straight line connecting the two points.
 - Similarly, mark the lower flap by drawing the breast up.
 {{< /hint >}}

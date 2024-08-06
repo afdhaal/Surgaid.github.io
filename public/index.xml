@@ -66,10 +66,17 @@
     </item>
     <item>
       <title>🏵️ SL Breast Guideline Summary</title>
-      <link>http://localhost:1313/posts/caudaequinafootdropclaudication-copy/</link>
+      <link>http://localhost:1313/posts/slbreastguidelinesummary-copy/</link>
       <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/caudaequinafootdropclaudication-copy/</guid>
-      <description>Clinical Evaluation # The triple assessment of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer. Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae. Stage the tumor according to the American Joint Committee on Cancer staging system. Imaging # All patients with suspected breast cancer should undergo bilateral mammography and ultrasonography before pathological evaluation.</description>
+      <guid>http://localhost:1313/posts/slbreastguidelinesummary-copy/</guid>
+      <description>Clinical Evaluation # The triple assessment of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer. Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae. Stage the tumor according to the American Joint Committee on Cancer staging system. graph TB A[Hx &amp; Ex] ==&gt; Imaging ==&gt; Pathology ==&gt; Staging subgraph Imaging direction TB z[B/L USS &amp; Mammo]--if inconlusive &lt;40yr, Before NACT--&gt; V[MRI] end subgraph Pathology direction TB Biopsy[Core biopsy + FNAC of LN] --&gt; Histology(Histology type &amp; grade) Biopsy--&gt; IHC[IHC: ER, PR, Her-2, Ki-67] end subgraph Staging direction TB Nodes[T3,T4/N2 or Mets]--&gt;CT[CT chest &amp; Abdomen Bone Synctigraphy] end Imaging # All patients with suspected breast cancer should undergo bilateral mammography and ultrasonography before pathological evaluation.</description>
+    </item>
+    <item>
+      <title>🏵️ SL Breast Guideline Summary</title>
+      <link>http://localhost:1313/posts/slbreastguidelinesummary/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/slbreastguidelinesummary/</guid>
+      <description>Clinical Evaluation # The triple assessment of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer. Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae. Stage the tumor according to the American Joint Committee on Cancer staging system. graph TB A[Hx &amp; Ex] ==&gt; Imaging ==&gt; Pathology ==&gt; Staging subgraph Imaging direction TB z[B/L USS &amp; Mammo]--if inconlusive &lt;40yr, Before NACT--&gt; V[MRI] end subgraph Pathology direction TB Biopsy[Core biopsy + FNAC of LN] --&gt; Histology(Histology type &amp; grade) Biopsy--&gt; IHC[IHC: ER, PR, Her-2, Ki-67] end subgraph Staging direction TB Nodes[T3,T4/N2 or Mets]--&gt;CT[CT chest &amp; Abdomen Bone Synctigraphy] end Imaging # All patients with suspected breast cancer should undergo bilateral mammography and ultrasonography before pathological evaluation.</description>
     </item>
     <item>
       <title>🌸 Mastectomy</title>

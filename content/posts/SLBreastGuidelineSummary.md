@@ -1,7 +1,9 @@
 ---
 title: 🏵️ SL Breast Guideline Summary
-Date: 2024-08-06
-Summary: ''
+Date: 2024-08-06T12:44:54+05:30
+Summary: '
+- The **triple assessment** of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer.
+- Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae.'
 
 weight: 30
 categories: 
@@ -18,7 +20,7 @@ params:
 
 ## Clinical Evaluation
 
-- The triple assessment of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer.
+- The **triple assessment** of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer.
 - Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae.
 - Stage the tumor according to the **American Joint Committee on Cancer staging system**.
 
@@ -29,7 +31,7 @@ graph TB
 
 A[Hx & Ex] ==> Imaging ==> Pathology ==> Staging
 
-  
+
 subgraph Imaging
 
 direction TB
