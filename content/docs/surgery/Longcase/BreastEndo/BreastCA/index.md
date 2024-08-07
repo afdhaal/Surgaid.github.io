@@ -21,6 +21,7 @@ params:
 
 ## History
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 mindmap
 	root((Breast Hx))
 		HPC
@@ -32,12 +33,7 @@ mindmap
 		DD
 			TB
 			Trauma
-			Size vs Menstrual cycle
 		RF
-			FHx
-			PMHx
-				Radiotherapy
-				Breast CA/Bx
 			Hormone
 				Endo
 					Menarche/Menopause
@@ -47,20 +43,13 @@ mindmap
 					OCP
 					HRT
 			Lifestyle
-				Smoking
-				Alcohol
-				Obesity
 		CMLx
 			Local
 			Systemic
-				Lung
-				Liver
-				Brain
-				Bone
 		UptoNow
 			Ix
 			NAT
-```
+``` 
 ### HPC
 1. About the main breast lump
 	- How did you 1st notice the lump?
