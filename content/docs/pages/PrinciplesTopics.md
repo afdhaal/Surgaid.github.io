@@ -1,7 +1,7 @@
 ---
 title: 🦀 Principles of surgery Topics
 Date: 2024-08-03
-Summary: ''
+Summary: 'All the topics of Principles of surgery will be asked in the exam.'
 
 weight: 30
 categories: 

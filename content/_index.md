@@ -19,7 +19,7 @@ bookToc: false
 <--->
 {{< card "Surgical Principles" "🧠" "/categories/principles/" "E9C46A" >}}
 <--->
-{{< card "Core Surgery" "🌸" "/categories/core-surgery/" "F4A261" >}}
+{{< card "Core Surgery" "🌸" "/categories/core/" "F4A261" >}}
 {{< /cards >}}
 
 

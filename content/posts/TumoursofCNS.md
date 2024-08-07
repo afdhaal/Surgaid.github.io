@@ -10,6 +10,7 @@ Summary: '
 
 weight: 30
 categories: 
+- Core
 - Neuro Surgery
 - Oncology
 Tags:

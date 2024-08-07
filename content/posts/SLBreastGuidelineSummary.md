@@ -7,6 +7,7 @@ Summary: '
 
 weight: 30
 categories: 
+- Core
 - Breast Surgery
 - Oncology
 Tags:

@@ -7,7 +7,7 @@ weight: 30
 categories: 
 - Neurosurgery
 - Pain
-- Core Surgery
+- Core
 Tags:
 - claudication
 - foot drop
