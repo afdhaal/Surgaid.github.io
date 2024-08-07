@@ -1,6 +1,6 @@
 ---
 title: ⚙️ Other resources
-Date: 2024-08-06
+Date: 2024-08-07
 Summary: ''
 
 weight: 30
@@ -15,7 +15,7 @@ params:
 ---
 
 
-# Common Topics
+# Resources
 ## Youtube PG classes
 1. [🍄 General Surgery PG Clinics](https://www.youtube.com/@GENERALSURGERYPGCLINICS/streams)
 2. [⛑️ General Surgery PG masterclass](https://www.youtube.com/@pgmasterclass8901)
