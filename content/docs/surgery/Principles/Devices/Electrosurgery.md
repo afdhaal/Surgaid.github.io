@@ -1,5 +1,5 @@
 ---
-title: 🕹️ Electrosurgery
+title: 🔌 Electrosurgery
 Date: 2024-08-15
 Summary: ''
 
@@ -198,8 +198,8 @@ flowchart LR
 	- Ensure **continuous ECG monitoring** during surgery.
 	- Have a **defibrillator** readily available in the theatre.
 
-{{< hint "warning"}}
->##### Pacemaker settings
+{{< hint "warning" >}}
+##### Pacemaker settings
  - Set the pacemaker to **"maintain only" mode** to prevent inappropriate shock delivery due to electrical interference.
  - In **Emergency Surgery** If pacemaker settings cannot be adjusted, place a **magnet over the ICD** to inhibit shock delivery.
 {{< /hint >}}
