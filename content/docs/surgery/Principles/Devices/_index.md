@@ -1,6 +1,6 @@
 ---
-weight: 10
 bookCollapseSection: true
-title: "🧠 Principles of Surgery"
+weight: 20
+title: "🕹️ Devices"
 draft: false
 ---

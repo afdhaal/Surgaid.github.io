@@ -21,7 +21,6 @@ params:
 
 ## History
 ```mermaid
-%%{init: {'theme': 'dark'}}%%
 mindmap
 	root((Breast Hx))
 		HPC

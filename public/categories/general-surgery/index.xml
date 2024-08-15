@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General Surgery on Surgeons Aid ☘️</title>
+    <link>http://localhost:1313/categories/general-surgery/</link>
+    <description>Recent content in General Surgery on Surgeons Aid ☘️</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/general-surgery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🕹️ Electrosurgery</title>
+      <link>http://localhost:1313/docs/surgery/principles/devices/electrosurgery/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/surgery/principles/devices/electrosurgery/</guid>
+      <description>ELECTROSURGERY AND ENERGISED # %%{init: {&#39;theme&#39;:&#39;dark&#39;}}%% mindmap root((Electrosurgery)) Defi Electrosurgery High fz AC - heat Cut coagulate Electrocautery DC - heat Biophy electric current Types Monopolar Bipolar Introduction # Definitions # Electrosurgery: Uses high-frequency alternating current (AC) to generate heat, which is used to cut or coagulate tissue. Electrocautery: Uses direct current (DC) to generate heat at the tip of an instrument. Monopolar # Active Electrode:&#xA;a small, precise electrode that generates heat at its tip that delivers the high-frequency electrical current to the tissue.</description>
+    </item>
+  </channel>
+</rss>
