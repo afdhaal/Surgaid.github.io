@@ -3,9 +3,9 @@ title: ⚙️ Other resources
 Date: 2024-08-07
 Summary: ''
 
-weight: 30
+weight: 70
 categories: 
-- Other
+
 Tags:
 - Youtube
 

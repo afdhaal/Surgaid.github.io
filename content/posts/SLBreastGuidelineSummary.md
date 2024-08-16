@@ -7,9 +7,10 @@ Summary: '
 
 weight: 30
 categories: 
-- Core
-- Breast Surgery
+- core
+- breast
 - Oncology
+- general surgery
 Tags:
 - Sri Lanka
 

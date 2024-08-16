@@ -5,7 +5,9 @@ Summary: ''
 
 weight: 30
 categories: 
-- General Surgery
+- general surgery
+- devices
+- principles
 Tags:
 - principles
 

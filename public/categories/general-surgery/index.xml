@@ -9,11 +9,18 @@
     <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/general-surgery/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>🕹️ Electrosurgery</title>
+      <title>🔌 Electrosurgery</title>
       <link>http://localhost:1313/docs/surgery/principles/devices/electrosurgery/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/surgery/principles/devices/electrosurgery/</guid>
       <description>ELECTROSURGERY AND ENERGISED # %%{init: {&#39;theme&#39;:&#39;dark&#39;}}%% mindmap root((Electrosurgery)) Defi Electrosurgery High fz AC - heat Cut coagulate Electrocautery DC - heat Biophy electric current Types Monopolar Bipolar Introduction # Definitions # Electrosurgery: Uses high-frequency alternating current (AC) to generate heat, which is used to cut or coagulate tissue. Electrocautery: Uses direct current (DC) to generate heat at the tip of an instrument. Monopolar # Active Electrode:&#xA;a small, precise electrode that generates heat at its tip that delivers the high-frequency electrical current to the tissue.</description>
+    </item>
+    <item>
+      <title>🏵️ SL Breast Guideline Summary</title>
+      <link>http://localhost:1313/posts/slbreastguidelinesummary/</link>
+      <pubDate>Tue, 06 Aug 2024 12:44:54 +0530</pubDate>
+      <guid>http://localhost:1313/posts/slbreastguidelinesummary/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;The &lt;strong&gt;triple assessment&lt;/strong&gt; of clinical examination, imaging, and histopathology remains the cornerstone of the diagnostic work-up in patients suspected to have breast cancer. - Obtain a full history and perform a complete general examination, including an examination of the breasts, axillae, and supraclavicular fossae.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

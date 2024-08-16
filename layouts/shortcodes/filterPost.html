@@ -1,0 +1,30 @@
+{{ $title := strings.FirstUpper (.Get 0) }}
+<h1>{{ $title }} articles</h1>
+<hr>
+<ul>
+    {{ $category := lower (.Get 0) }}
+    {{ $tag := "" }}
+    {{ if ge (len .Params) 2 }}
+      {{ $tag = lower (.Get 1) }}
+    {{ end }}
+  
+    <!-- Display category as an H2 heading -->
+  
+    <!-- Filter pages by category -->
+    {{ $pages := where .Site.RegularPages "Params.categories" "intersect" (slice $category) }}
+  
+    <!-- Further filter by tag if provided -->
+    {{ if $tag }}
+      {{ $pages = where $pages "Params.tags" "intersect" (slice $tag) }}
+    {{ end }}
+  
+    <!-- Output the filtered pages -->
+    {{ if not (eq (len $pages) 0) }}
+      {{ range $pages }}
+        <li><h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3></li>
+      {{ end }}
+    {{ else }}
+      <li>No posts found for category "{{ .Get 0 }}"{{ if $tag }} and tag "{{ .Get 1 }}"{{ end }}.</li>
+    {{ end }}
+  </ul>
+  

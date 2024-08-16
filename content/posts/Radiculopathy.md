@@ -5,8 +5,7 @@ Summary: ''
 
 weight: 30
 categories: 
-- Neurosurgery
-- Pain
+- neurosurgery
 - Core
 Tags:
 - claudication

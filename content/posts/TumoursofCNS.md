@@ -11,7 +11,7 @@ Summary: '
 weight: 30
 categories: 
 - Core
-- Neuro Surgery
+- neurosurgery
 - Oncology
 Tags:
 - Metastasis
